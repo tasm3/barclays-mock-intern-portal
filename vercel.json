@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd intern-portal && npm run build",
+  "outputDirectory": "intern-portal/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
