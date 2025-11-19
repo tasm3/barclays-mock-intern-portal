@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd intern-portal && npm run build",
+  "buildCommand": "cd intern-portal && npm install && npm run build",
   "outputDirectory": "intern-portal/dist",
+  "installCommand": "cd intern-portal && npm install",
   "rewrites": [
     {
       "source": "/(.*)",
