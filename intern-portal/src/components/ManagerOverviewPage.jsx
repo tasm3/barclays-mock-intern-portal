@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { shouldUseMockData } from '../utils/dataMode'
 
 const DEFAULT_OVERVIEW_STATS = [
-  { label: 'Total interns', value: 18, trend: '+2 new this week' },
+  { label: 'Total participants', value: 18, trend: '+2 new this week' },
   { label: 'Active rotations', value: 6, trend: '3 ending next week' },
   { label: 'Feedback pending', value: 5, trend: '2 due today' },
   { label: 'Agenda coverage', value: '94%', trend: 'Synced with managers' }
@@ -78,7 +78,7 @@ function ManagerOverviewPage() {
       <div className="page-list">
         <div className="page-list-item">
           <section className="card">
-            <div className="card-title">Intern Overview</div>
+            <div className="card-title">Participant Overview</div>
             <div className="card-body">
               {overviewStats.length === 0 ? (
                 <div className="empty-state">No overview data available</div>
@@ -99,7 +99,7 @@ function ManagerOverviewPage() {
 
         <div className="page-list-item">
           <section className="card">
-            <div className="card-title">Current Intern Assignments</div>
+            <div className="card-title">Current Participant Assignments</div>
             <div className="card-body">
               {assignments.length === 0 ? (
                 <div className="empty-state">No assignments available</div>

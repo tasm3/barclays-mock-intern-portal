@@ -18,14 +18,14 @@ function LoginScreen({ onLogin }) {
             <img src={barclaysLogo} alt="Barclays logo" className="logo-image" />
           </div>
         </div>
-        <h1 className="login-title">Barclays Intern Program</h1>
-        <p className="login-subtitle">Sign in to continue.</p>
+        <h1 className="login-title">The Barclays Blueprint</h1>
+        <p className="login-subtitle">Choose a Demo Experience.</p>
         <div className="login-buttons">
           <button className="btn btn-primary" onClick={() => onLogin('intern')}>
-            Sign in as Intern
+            Participants
           </button>
           <button className="btn btn-primary" onClick={() => onLogin('manager')}>
-            Sign in as Manager
+            Manager
           </button>
         </div>
       </div>

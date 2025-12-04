@@ -13,7 +13,7 @@ import ResourcesPage from './ResourcesPage'
 import { shouldUseMockData } from '../utils/dataMode'
 
 function InternDashboard({ onLogout }) {
-  const [internName, setInternName] = useState('Intern')
+  const [internName, setInternName] = useState('Participant')
   const [activeTab, setActiveTab] = useState('overview')
   const [dataModeKey, setDataModeKey] = useState(0) // Force re-render when data mode changes
   const contentRef = useRef(null)
@@ -44,7 +44,7 @@ function InternDashboard({ onLogout }) {
       const name = localStorage.getItem('internName') || 'Richard Grayson'
       setInternName(name)
     } else {
-      setInternName('Intern')
+      setInternName('Participant')
     }
   }
 
@@ -91,7 +91,7 @@ function InternDashboard({ onLogout }) {
   
   return (
     <DashboardLayout 
-      title="Intern Dashboard" 
+      title="Participant Dashboard" 
       onLogout={onLogout}
       headerText={`Welcome, ${internName}!`}
     >
@@ -257,7 +257,7 @@ export function FeedbackFromManager() {
         {midReview && (
           <>
             <div style={{ marginBottom: '1rem' }}>
-              <strong>Mid-Internship Review:</strong>
+              <strong>Mid-Program Review:</strong>
               <p style={{ marginTop: '0.5rem', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
                 "{midReview.text}"
               </p>

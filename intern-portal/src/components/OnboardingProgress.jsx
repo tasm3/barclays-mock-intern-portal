@@ -3,7 +3,7 @@ import { shouldUseMockData } from '../utils/dataMode'
 
 const DEFAULT_TASKS = [
   { id: 1, label: 'Complete HR paperwork', completed: false },
-  { id: 2, label: 'Read intern handbook', completed: false },
+  { id: 2, label: 'Read program handbook', completed: false },
   { id: 3, label: 'Security & compliance training', completed: false },
   { id: 4, label: '1:1 with manager', completed: false },
   { id: 5, label: 'Set up development environment', completed: false },

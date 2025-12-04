@@ -34,7 +34,7 @@ function DashboardLayout({ title, children, onLogout, headerText }) {
           >
             <img src={barclaysLogo} alt="Barclays logo" className="logo-image" />
           </div>
-          <span className="top-bar-title">{headerText || 'Intern Portal'}</span>
+          <span className="top-bar-title">{headerText || 'Participant Portal'}</span>
         </div>
         <div className="top-bar-right">
           <button className="btn btn-outline btn-small" onClick={onLogout}>

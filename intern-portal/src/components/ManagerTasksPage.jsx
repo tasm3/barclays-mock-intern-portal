@@ -20,7 +20,7 @@ const projects = [
 
 const agenda = {
   today: [
-    { time: '9:30 AM', title: 'Team stand-up (all interns)', owner: 'Managers' },
+    { time: '9:30 AM', title: 'Team stand-up (all participants)', owner: 'Managers' },
     { time: '1:00 PM', title: 'Fraud Dashboard review', owner: 'Richard + Stephanie' },
     { time: '4:30 PM', title: 'Security pilot sync', owner: 'Damian' }
   ],

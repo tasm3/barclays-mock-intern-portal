@@ -1,5 +1,5 @@
 const overviewStats = [
-  { label: 'Total interns', value: 18, trend: '+2 new this week' },
+  { label: 'Total participants', value: 18, trend: '+2 new this week' },
   { label: 'Active rotations', value: 6, trend: '3 ending next week' },
   { label: 'Feedback pending', value: 5, trend: '2 due today' },
   { label: 'Agenda coverage', value: '94%', trend: 'Synced with managers' }
@@ -44,8 +44,8 @@ function ManagerHomePage() {
           <section className="card manager-card">
             <div className="manager-card-header">
               <div>
-                <h3>Intern Overview</h3>
-                <p>Live snapshot of intern health across cohorts.</p>
+                <h3>Participant Overview</h3>
+                <p>Live snapshot of participant health across cohorts.</p>
               </div>
               <button className="btn btn-outline btn-small">Download report</button>
             </div>
@@ -65,7 +65,7 @@ function ManagerHomePage() {
           <section className="card manager-card">
             <div className="manager-card-header">
               <div>
-                <h3>Current Intern Assignments</h3>
+                <h3>Current Participant Assignments</h3>
                 <p>Know who owns what, instantly.</p>
               </div>
             </div>
@@ -123,7 +123,7 @@ function ManagerHomePage() {
             <div className="manager-card-header">
               <div>
                 <h3>Team & Manager Directory</h3>
-                <p>Intern → manager/mentor pairings.</p>
+                <p>Participant → manager/mentor pairings.</p>
               </div>
             </div>
             <div className="list-table">
@@ -145,9 +145,9 @@ function ManagerHomePage() {
             <div className="manager-card-header">
               <div>
                 <h3>Today's Agenda Overview</h3>
-                <p>Intern workload visibility.</p>
+                <p>Participant workload visibility.</p>
               </div>
-              <button className="btn btn-outline btn-small">View intern calendar</button>
+              <button className="btn btn-outline btn-small">View participant calendar</button>
             </div>
             <div className="agenda-grid">
               {agendaOverview.map((entry) => (

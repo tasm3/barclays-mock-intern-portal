@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { shouldUseMockData } from '../utils/dataMode'
 
 const DEFAULT_RESOURCE_LIBRARY = [
-  { title: 'Intern Handbook v2.1', category: 'Orientation', views: 128, status: 'Published' },
+  { title: 'Program Handbook v2.1', category: 'Orientation', views: 128, status: 'Published' },
   { title: 'Security Playbook', category: 'Training', views: 84, status: 'Draft' },
   { title: 'Project Pitch Template', category: 'Tools', views: 210, status: 'Published' },
   { title: 'Career Story Cards', category: 'Development', views: 55, status: 'Unpublished' }
@@ -13,7 +13,7 @@ const DEFAULT_CATEGORIES = ['Orientation', 'Engineering', 'Product', 'Design', '
 const DEFAULT_USAGE_METRICS = [
   { label: 'Total downloads', value: '642', trend: '+18% vs last week' },
   { label: 'Top resource', value: 'Pitch Template', trend: '210 opens' },
-  { label: 'Active interns', value: '94%', trend: 'Used at least 1 resource' }
+  { label: 'Active participants', value: '94%', trend: 'Used at least 1 resource' }
 ]
 
 function ManagerResourcesPage() {
@@ -134,7 +134,7 @@ function ManagerResourcesPage() {
           <section className="card manager-card">
             <div className="manager-card-header">
               <div>
-                <h3>Track Intern Resource Usage</h3>
+                <h3>Track Participant Resource Usage</h3>
                 <p>Signals for what’s resonating.</p>
               </div>
               <button className="btn btn-outline btn-small">Export stats</button>

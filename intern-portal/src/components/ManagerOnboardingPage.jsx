@@ -28,7 +28,7 @@ const DEFAULT_COMPLETION_PROGRESS = [
 ]
 
 const DEFAULT_TRAINING_MATERIALS = [
-  { title: 'Intern Handbook v2.1', type: 'PDF', size: '4.2 MB', status: 'Published' },
+  { title: 'Program Handbook v2.1', type: 'PDF', size: '4.2 MB', status: 'Published' },
   { title: 'Security Essential Series', type: 'Video', size: '30 mins', status: 'Draft' },
   { title: 'Backend API Starter Kit', type: 'ZIP', size: '18 MB', status: 'Published' },
   { title: 'Mentor Playbook', type: 'Notion', size: '-', status: 'Published' }
