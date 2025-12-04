@@ -19,7 +19,7 @@ function LoginScreen({ onLogin }) {
           </div>
         </div>
         <h1 className="login-title">The Barclays Blueprint</h1>
-        <p className="login-subtitle">Choose a Demo Experience.</p>
+        <p className="login-subtitle">Choose a Demo Experience:</p>
         <div className="login-buttons">
           <button className="btn btn-primary" onClick={() => onLogin('intern')}>
             Participants
